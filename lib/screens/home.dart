@@ -32,7 +32,7 @@ class HomeScreen extends ConsumerWidget {
               color: Colors.blueGrey.withOpacity(.05),
               child: Column(
                 children: [
-                  Image.asset(allProducts[index].image, height: 60, width: 60),
+                  Image.asset(allProducts[index].image, height: 55, width: 55),
                   Text(allProducts[index].title),
                   Text("\$${allProducts[index].price}"),
 
